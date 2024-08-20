@@ -1,5 +1,5 @@
 var chance = "X";
-let isgameover = false;
+let is game-over = false;
 function checkWin() {
   let boxText = document.getElementsByClassName("btn");
   let wins = [
@@ -20,7 +20,7 @@ function checkWin() {
     ) {
       document.getElementById("resultText").innerHTML =
         boxText[e[0]].innerHTML + " Won";
-      isgameover = true;
+      is game-over = true;
       document.getElementById("resultText").style.visibility = "visible";
       document.getElementById("reset-btn").style.visibility = "visible";
       document.getElementById("gif").style.visibility = "visible";
