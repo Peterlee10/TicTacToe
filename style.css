@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    text-align: center;
+    overflow-x: hidden;
+  }
+  #inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #inputs,
+  .welcome-text,
+  #turn {
+    padding-top: 1%;
+  }
+  .btn {
+    margin-top: 1%;
+  }
+  #resultText {
+    padding-top: 2%;
+  }
+  .welcome-text {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .welcome-text,
+  #turn,
+  .btn,
+  #reset-btn,
+  #resultText,
+  #gif {
+    color: purple;
+  }
+  #turn {
+    font-size: 1.5rem;
+  }
+  .btn {
+    height: 80px;
+    width: 80px;
+    border: 2px solid purple;
+    font-size: 2rem;
+  }
+  #reset-btn,
+  #resultText,
+  #gif {
+    visibility: hidden;
+  }
+  #gif {
+    height: 150px;
+  }
+  #gif,
+  #reset-btn {
+    width: 150px;
+  }
+  #reset-btn {
+    height: 50px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+  }
